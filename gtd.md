@@ -8,16 +8,16 @@ Extraído de [Doing "Getting Things Done" (GTD) with Linux and todotxt](https://
  > estar concentrado plenamente en lo que estás haciendo en ese momento,
  > y no atendiendo interrupciones del estilo de "tienes que hacer esto otro".
 
-¿Cuál es el objetivo de todo esto?
-- Sacar cosas de tu cabeza.
-- Estar presente.
-- Saber qué necesitas hacer.
+¿Cuál es el objetivo de todo esto?  
+- Sacar cosas de tu cabeza.  
+- Estar presente.  
+- Saber qué necesitas hacer.  
 - Saber qué no estás haciendo.
 
-**Sistema único** para el trabajo y para lo personal.
-	- Tu vida es más que simplemente tu "trabajo".
-	- Un sistema ya es suficientemente difícil de mantener.
-	- Te permite pensar en tu trabajo sobre otros proyectos, apuntar las ideas vengan donde y cuando vengan y alcanzar mayores niveles de concentración.
+**Sistema único** para el trabajo y para lo personal.  
+	- Tu vida es más que simplemente tu "trabajo".  
+	- Un sistema ya es suficientemente difícil de mantener.  
+	- Te permite pensar en tu trabajo sobre otros proyectos, apuntar las ideas vengan donde y cuando vengan y alcanzar mayores niveles de concentración.  
 	- Tu sistema tiene que ser flexible y su uso tiene que ser agradable para ti.
 
 - 5 Fases de Trabajo:
