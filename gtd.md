@@ -71,15 +71,15 @@ Revisar las listas de proyectos al menos semanalmente para ver qué debe ser act
 
 Filtrado por:
 
-- Contexto (¿qué puedo hacer?).  
-- Disponibilidad (¿cuánto tiempo tengo?).  
-- Energía (¿estoy atento y descansado? ¿estoy agotado?).  
-- Prioridad (¿algo huele a quemado?).
+- Contexto: ¿qué puedo hacer?  
+- Disponibilidad: ¿cuánto tiempo tengo?  
+- Energía: ¿estoy atento y descansado? ¿estoy agotado?  
+- Prioridad: ¿algo huele a quemado?
   - Lo de establecer prioridades ordenadamente es "problemático"... Déjate guiar por tu intuición.
 
 ## Elementos clave de GTD
 
-- [**Captura todo**](https://www.aprendiendogtd.com/podcast-productividad/005-recopilar-informacion-gtd/) lo que llame tu atención
+- [**Captura todo**](https://www.aprendiendogtd.com/podcast-productividad/005-recopilar-informacion-gtd/) lo que llame tu atención.
 - Basado en el [**contexto**](https://www.aprendiendogtd.com/podcast-productividad/019-los-contextos-en-gtd-productividad/): filtra en función de lo que puedes hacer en este momento.
 - [**Lista de Próximas Acciones**](https://www.aprendiendogtd.com/blog-productividad/reflexiones/serie-olivares-efectivos-ix-siguientes-acciones/): lista de acciones __físicas__ para completar un proyecto.
 - [**Lista de Proyectos**](https://www.aprendiendogtd.com/blog-productividad/todoist/implantar-gtd-en-todoist-lista-de-proyectos/): lista de "resultados alcanzados con éxito".
