@@ -75,7 +75,7 @@ Filtrado por:
 - Disponibilidad: ¿cuánto tiempo tengo?  
 - Energía: ¿estoy atento y descansado? ¿estoy agotado?  
 - Prioridad: ¿algo huele a quemado?
-  - Lo de establecer prioridades ordenadamente es "problemático"... Déjate guiar por tu intuición.
+  Lo de establecer prioridades ordenadamente es "problemático"... Déjate guiar por tu intuición.
 
 ## Elementos clave de GTD
 
