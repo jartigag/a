@@ -2,7 +2,9 @@
 
 Extraído de [Doing "Getting Things Done" (GTD) with Linux and todotxt](https://www.youtube.com/watch?v=TtBCh2EWyXY) (Craig Maloney, 2016)
 
-[GTD™](https://es.wikipedia.org/wiki/Getting_Things_Done), de la David Allen Company, es un sistema de productividad personal. Se suele describir como una metodología de "gestión del tiempo", pero no va de averiguar cómo dividir tu día en secciones. Es más un sistema de "gestión de la vida" o de "gestión de la concentración".
+[GTD™](https://es.wikipedia.org/wiki/Getting_Things_Done), de la David Allen Company, es un sistema de productividad personal.
+Se suele describir como una metodología de "gestión del tiempo", pero no va de averiguar cómo dividir tu día en secciones.
+Es más un sistema de "gestión de la vida" o de "gestión de la concentración".
 
  > [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness) -> **Atención plena**:  
  > estar concentrado plenamente en lo que estás haciendo en ese momento,  
@@ -42,7 +44,8 @@ Tu herramienta de captura tiene que suponerte **cero fricción**, porque, si no 
 
 ¿Qué es este item? ¿Cuál es la siguiente acción?
 
-Regla de los "dos minutos": si lo puedes acabar en menos tiempo del que te llevaría meterlo en el sistema, hazlo ya, aunque no se trate de nada urgente ni prioritario. Algunos consideran que esta regla es ["arriesgada"](https://optimainfinito.com/2015/03/gtd-la-arriesgada-regla-de-los-dos-minutos.html), porque puede tentarte constantemente a abandonar un trabajo intelectual duro y dedicarte a "tachar chorradas" para generarte sensación de logro.
+Regla de los "dos minutos": si lo puedes acabar en menos tiempo del que te llevaría meterlo en el sistema, hazlo ya, aunque no se trate de nada urgente ni prioritario.
+Algunos consideran que esta regla es ["arriesgada"](https://optimainfinito.com/2015/03/gtd-la-arriesgada-regla-de-los-dos-minutos.html), porque puede tentarte constantemente a abandonar un trabajo intelectual duro y dedicarte a "tachar chorradas" para generarte sensación de logro.
 
 **Una cosa a la vez**: no procesar por lotes.
 
@@ -71,7 +74,7 @@ Filtrado por:
 - Contexto (¿qué puedo hacer?).  
 - Disponibilidad (¿cuánto tiempo tengo?).  
 - Energía (¿estoy atento y descansado? ¿estoy agotado?).  
-- Prioridad (¿algo huele a quemado?).  
+- Prioridad (¿algo huele a quemado?).
   - Lo de establecer prioridades ordenadamente es "problemático"... Déjate guiar por tu intuición.
 
 ## Elementos clave de GTD
