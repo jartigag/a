@@ -39,19 +39,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  generate-index:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: gacts/directory-listing@v1
-        with:
-          target: .
-          footer: true
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'index.html'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # generate-index:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: gacts/directory-listing@v1
+  #       with:
+  #         target: .
+  #         footer: true
+  #     - name: Setup Pages
+  #       uses: actions/configure-pages@v5
+  #     - name: Upload artifact
+  #       uses: actions/upload-pages-artifact@v3
+  #       with:
+  #         path: 'index.html'
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4
