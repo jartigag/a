@@ -30,6 +30,20 @@ jobs:
           output_files: '["gtd.html"]'
           builtin_stylesheet: 'style.css'
           extensions: '["markdown.extensions.extra"]'
+      - name: Convert Markdown to HTML
+        uses: ZacJW/markdown-html-action@1.1.0
+        with:
+          input_files: '[["vps/*.md"]]'
+          output_files: '["vps.html"]'
+          builtin_stylesheet: 'style.css'
+          extensions: '["markdown.extensions.extra"]'
+      - name: Convert Markdown to HTML
+        uses: ZacJW/markdown-html-action@1.1.0
+        with:
+          input_files: '[["mail/*.md"]]'
+          output_files: '["mail.html"]'
+          builtin_stylesheet: 'style.css'
+          extensions: '["markdown.extensions.extra"]'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
