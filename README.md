@@ -3,5 +3,5 @@
 - [u: historia de unix para dummys](u/99) [(`99.md`)](/u/99.md)
 - [vps: contratar](vps/2023.12-contratar.md)
 - [vps: uso de disco](2024.01-uso-de-disco.md)
-- [dfir](dfir/)
-- [gtd](gtd/)
+- [dfir](dfir.html)
+- [gtd](gtd.html) [(`gtd.md`)](gtd.md)
