@@ -2,8 +2,8 @@
 - [gtd](gtd.html) (`gtd.md`)
 
 # gnu/linux
-- [u: gnu coreutils](u/0) (`/u/{0,1,2,3}.md`)
-- [u: historia de unix para dummys](u/99) (`99.md`)
+- [u: gnu coreutils](u/0.html) (`/u/{0,1,2,3}.md`)
+- [u: historia de unix para dummys](u/99.html) (`99.md`)
 
 # infosec
 - [dfir](dfir.html)
