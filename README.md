@@ -12,4 +12,4 @@
 # sysadmin
 - [mail: contratar](mail/2023.11-contratar.html)
 - [vps: contratar](vps/2023.12-contratar.html)
-- [vps: uso de disco](2024.01-uso-de-disco.html)
+- [vps: uso de disco](vps/2024.01-uso-de-disco.html)
