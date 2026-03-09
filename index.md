@@ -1,7 +1,0 @@
-- [mail: contratar](mail/2023.11-contratar.md)
-- [u: gnu coreutils](u/0) [(`/u/{0,1,2,3}.md`)](/u/0.md)
-- [u: historia de unix para dummys](u/99) [(`99.md`)](/u/99.md)
-- [vps: contratar](vps/2023.12-contratar.md)
-- [vps: uso de disco](2024.01-uso-de-disco.md)
-- [dfir](dfir/)
-- [gtd](gtd/)
