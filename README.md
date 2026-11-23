@@ -12,12 +12,21 @@
 # infosec
 
 ## dfir
-- [dfir](dfir.html)
+- [apuntes forense (487164)](https://487164.github.io/for/)
 
 ## hack the box
 - [dadirug-es/htb](https://dadirug-es.github.io/htb/)
 
+## security team wiki
+- [dadirug-es/Wk](https://dadirug-es.github.io/Wk/)
+
+## security tooling (browser bookmarks)
+- [dadirug-es/sec-tools](https://dadirug-es.github.io/sec-tools/)
+
 # sysadmin
+
+## blogposts
+- [backups, monitorización, aplicaciones (nextcloud, hackmd, immich)](https://jartigag.github.io/blog//tags/#sysadmin)
 
 ## mail
 - [mail: contratar](mail/2023.11-contratar.html)
