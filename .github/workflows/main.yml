@@ -1,5 +1,4 @@
-# 1. BUILD
-name: Build
+name: Build and deploy
 
 on:
   # Runs on pushes targeting the default branch
@@ -16,7 +15,7 @@ permissions:
   id-token: write
 
 jobs:
-  convert-md-to-html-and-deploy-output-files:
+  convert-md-to-html-and-upload-output-files:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -44,13 +43,22 @@ jobs:
           extensions: '["markdown.extensions.extra"]'
       - name: Setup Pages
         uses: actions/configure-pages@v5
+       - uses: gacts/directory-listing@v1
+         with:
+           target: .
+           footer: true
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'index.html'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+
   deploy:
     needs:
-      convert-md-to-html-and-deploy-output-files
+      convert-md-to-html-and-upload-output-files
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
