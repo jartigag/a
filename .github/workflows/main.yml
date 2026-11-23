@@ -20,6 +20,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Convert gtd Markdown to HTML
         uses: ZacJW/markdown-html-action@1.1.0
         with:
@@ -27,6 +28,7 @@ jobs:
           output_files: '["gtd.html"]'
           builtin_stylesheet: 'style.css'
           extensions: '["markdown.extensions.extra"]'
+
       - name: Convert vps/ Markdown to HTML
         uses: ZacJW/markdown-html-action@1.1.0
         with:
@@ -34,6 +36,7 @@ jobs:
           output_files: '["vps.html"]'
           builtin_stylesheet: 'style.css'
           extensions: '["markdown.extensions.extra"]'
+
       - name: Convert mail/ Markdown to HTML
         uses: ZacJW/markdown-html-action@1.1.0
         with:
@@ -41,20 +44,21 @@ jobs:
           output_files: '["mail.html"]'
           builtin_stylesheet: 'style.css'
           extensions: '["markdown.extensions.extra"]'
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-       - uses: gacts/directory-listing@v1
-         with:
-           target: .
-           footer: true
+
+      - name: Generate directory listing
+        uses: gacts/directory-listing@v1
+        with:
+          target: .
+          footer: true
+
       - name: Upload index.html artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'index.html'
-      - name: Upload path . artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
+
   deploy:
     needs:
       convert-md-to-html-and-upload-output-files
@@ -63,10 +67,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
