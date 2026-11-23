@@ -16,7 +16,7 @@ permissions:
   id-token: write
 
 jobs:
-  convert-md-to-html-and-deploy-static-content-to-pages:
+convert-md-to-html-and-deploy-static-content-to-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -73,4 +73,4 @@ jobs:
            path: 'index.html'
        - name: Deploy to GitHub Pages
          id: deployment
-  #       uses: actions/deploy-pages@v4
+         uses: actions/deploy-pages@v4
