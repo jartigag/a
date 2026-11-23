@@ -52,7 +52,6 @@ jobs:
         uses: gacts/directory-listing@v1
         with:
           target: .
-          footer: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
