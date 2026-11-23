@@ -14,21 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
   convert-md-to-html-and-deploy-static-content-to-pages:
     runs-on: ubuntu-latest
     steps:
@@ -72,18 +57,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4  # generate-index:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: gacts/directory-listing@v1
-  #       with:
-  #         target: .
-  #         footer: true
-  #     - name: Setup Pages
-  #       uses: actions/configure-pages@v5
-  #     - name: Upload artifact
-  #       uses: actions/upload-pages-artifact@v3
-  #       with:
-  #         path: 'index.html'
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
+     runs-on: ubuntu-latest
+     steps:
+       - uses: gacts/directory-listing@v1
+         with:
+           target: .
+           footer: true
+       - name: Setup Pages
+         uses: actions/configure-pages@v5
+       - name: Upload artifact
+         uses: actions/upload-pages-artifact@v3
+         with:
+           path: 'index.html'
+       - name: Deploy to GitHub Pages
+         id: deployment
   #       uses: actions/deploy-pages@v4
