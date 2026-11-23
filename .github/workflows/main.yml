@@ -55,7 +55,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
   deploy:
     needs:
       convert-md-to-html-and-upload-output-files
