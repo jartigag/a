@@ -47,11 +47,11 @@ jobs:
          with:
            target: .
            footer: true
-      - name: Upload artifact
+      - name: Upload index.html artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'index.html'
-      - name: Upload artifact
+      - name: Upload path . artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
