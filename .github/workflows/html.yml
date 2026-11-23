@@ -1,5 +1,4 @@
-# Build HTML
-name: Build HTML
+name: Build
 
 on:
   # Runs on pushes targeting the default branch
@@ -15,8 +14,14 @@ permissions:
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-convert-md-to-html-and-deploy-static-content-to-pages:
+  convert-md-to-html-and-deploy-static-content-to-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -48,7 +53,6 @@ convert-md-to-html-and-deploy-static-content-to-pages:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-  # Deployment job
   deploy:
     environment:
       name: github-pages
